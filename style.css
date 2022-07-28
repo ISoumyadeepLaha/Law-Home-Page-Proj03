@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Edu+QLD+Beginner&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Poppins:ital@0;1&family=Ubuntu&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #242B2E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.list-item{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: grey;
+}
+
+.list-item a:focus{
+    color: #fff;
+}
+
+.button-small{
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    color: #A77B06;
+    border: 2px solid #A77B06;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.main{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.main-left{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    /* background-color: aqua; */
+}
+
+.text-left{
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-left: 40px;
+    line-height: 80px;
+    /* letter-spacing: 2px; */
+    color: #fff;
+}
+
+.main-right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    /* background-color: blueviolet; */
+}
+
+.text-right{
+    font-size: 18px; 
+    letter-spacing: 2px;
+    color: #ebdbdb;
+    padding: 80px;
+}
+.lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10px; */
+}
